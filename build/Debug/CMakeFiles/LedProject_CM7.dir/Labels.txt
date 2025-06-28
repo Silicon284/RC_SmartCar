@@ -1,0 +1,13 @@
+# Target labels
+ LedProject_CM7
+# Source files and their labels
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM7
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM7.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM7-complete.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-build.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-configure.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-download.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-install.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-mkdir.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-patch.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM7/src/LedProject_CM7-stamp/LedProject_CM7-update.rule

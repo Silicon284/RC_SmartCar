@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM4"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM4.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM4-complete.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-build.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-configure.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-download.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-install.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-mkdir.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-patch.rule"
+		},
+		{
+			"file" : "C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"LedProject_CM4"
+		],
+		"name" : "LedProject_CM4"
+	}
+}

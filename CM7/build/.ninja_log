@@ -1,0 +1,25 @@
+# ninja log v5
+17	759	7724870711598354	CMakeFiles/LedProject_CM7.dir/Core/Src/sysmem.c.obj	eaf87f15d6200fc0
+25	909	7724870712766115	CMakeFiles/LedProject_CM7.dir/Core/Startup/startup_stm32h745xx_CM7.s.obj	2cd078f305dc2f51
+21	1198	7724870716295345	CMakeFiles/LedProject_CM7.dir/Core/Src/syscalls.c.obj	86736d214e56e468
+5	1371	7724870718089939	CMakeFiles/LedProject_CM7.dir/Core/Src/main.c.obj	f2e33a14f8bf5e85
+13	1484	7724870719091039	CMakeFiles/LedProject_CM7.dir/Core/Src/stm32h7xx_hal_msp.c.obj	7314709eac27e357
+87	1750	7724870722087468	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj	1625c9f8c8b9915f
+43	1776	7724870722279389	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj	705ccb7d257a0028
+9	1776	7724870722279389	CMakeFiles/LedProject_CM7.dir/Core/Src/stm32h7xx_it.c.obj	3cec047a93785060
+80	1913	7724870723890931	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj	4fac8f2beb370a6
+30	1951	7724870724389541	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj	afac457841e365bb
+68	1996	7724870724324340	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj	c278222206cebad8
+74	2000	7724870724399609	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj	43db8278d40e78ed
+36	2013	7724870724781294	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj	908e18df93c7a853
+60	2056	7724870725254544	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj	6a3b36dfe5ebddc
+52	2119	7724870725876416	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj	8c2d458ab580096b
+100	2205	7724870726509997	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj	721b4ff0a8aab2ff
+108	2214	7724870726711103	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj	853ced032b2dd7c3
+761	2255	7724870727421527	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj	92019a68b8a9f66d
+94	2310	7724870728206528	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj	a680a1a7eec9903e
+910	2435	7724870729526742	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj	6a75db19b068fd5c
+1372	2537	7724870730511869	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj	a20ef7606a3eda34
+1485	2566	7724870730838165	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj	e9579e11610b6c9
+1199	2685	7724870732034228	CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj	f11b2ce6206d4ee2
+2685	2915	7724870734197152	LedProject_CM7.elf	df2a6cea18cdb68f

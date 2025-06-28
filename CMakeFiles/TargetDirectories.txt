@@ -1,0 +1,4 @@
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CMakeFiles/LedProject_CM4.dir
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CMakeFiles/LedProject_CM7.dir
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CMakeFiles/edit_cache.dir
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CMakeFiles/rebuild_cache.dir

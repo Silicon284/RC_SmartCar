@@ -1,0 +1,1 @@
+cmd='C:/ST/STM32CubeCLT_1.18.0/CMake/bin/cmake.exe;-DCMAKE_EXPORT_COMPILE_COMMANDS=ON;-DCMAKE_TOOLCHAIN_FILE=C:/CoffeeWithEmbedded/STM_Projects/LedProject/gcc-arm-none-eabi.cmake;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

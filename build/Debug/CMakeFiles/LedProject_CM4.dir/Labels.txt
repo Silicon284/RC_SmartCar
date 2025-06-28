@@ -1,0 +1,13 @@
+# Target labels
+ LedProject_CM4
+# Source files and their labels
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM4
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM4.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CMakeFiles/LedProject_CM4-complete.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-build.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-configure.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-download.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-install.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-mkdir.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-patch.rule
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/build/Debug/CM4/src/LedProject_CM4-stamp/LedProject_CM4-update.rule

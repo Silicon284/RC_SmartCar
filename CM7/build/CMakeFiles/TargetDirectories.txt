@@ -1,0 +1,4 @@
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CM7/build/CMakeFiles/LedProject_CM7.dir
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CM7/build/CMakeFiles/STM32_Drivers.dir
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CM7/build/CMakeFiles/edit_cache.dir
+C:/CoffeeWithEmbedded/STM_Projects/LedProject/CM7/build/CMakeFiles/rebuild_cache.dir
