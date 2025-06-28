@@ -26,7 +26,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-
+extern UART_HandleTypeDef BT_UART;
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -212,6 +212,15 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE END EXTI15_10_IRQn 1 */
 }
 
-/* USER CODE BEGIN 1 */
+void USART2_IRQHandler(void)
+{
+  /* USER CODE BEGIN USART2_IRQn 0 */
+  // Add debug - toggle a LED to show interrupt is firing
+      __HAL_UART_CLEAR_OREFLAG(&BT_UART);
+  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14); // Red LED to show interrupt fired
+  /* USER CODE END USART2_IRQn 0 */
+  HAL_UART_IRQHandler(&BT_UART);
+  /* USER CODE BEGIN USART2_IRQn 1 */
 
-/* USER CODE END 1 */
+  /* USER CODE END USART2_IRQn 1 */
+}

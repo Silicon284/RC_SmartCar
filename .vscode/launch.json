@@ -56,7 +56,7 @@
          * The master slave aspect implies that CPU1 has to execute code making the CPU2 available to the debugger.
          * The following template assumes that the user understand how/when the CPU2 is released by CPU1 code execution.
          */
-        /*
+        
         {
             "name": "Debug CM4 - ST-Link",
             "cwd": "${workspaceFolder}",
@@ -82,7 +82,7 @@
             ],
             "preLaunchTask": "Build + Flash CM4"
         },
-        */
+        /*
         {
             "name": "Attach CM4 - ST-Link",
             "cwd": "${workspaceFolder}",    
