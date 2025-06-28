@@ -478,7 +478,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .debug_line    0x00000000      0x8f1 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
- .debug_str     0x00000000   0x17543b CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
+ .debug_str     0x00000000   0x175418 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x24c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj
  .ARM.attributes
@@ -1157,7 +1157,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .debug_line    0x00000000      0xc10 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
- .debug_str     0x00000000   0x175523 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
+ .debug_str     0x00000000   0x175500 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x200 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj
  .ARM.attributes
@@ -1350,7 +1350,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .debug_line    0x00000000      0xfdc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
- .debug_str     0x00000000   0x1757f3 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000   0x1757d0 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x484 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -1926,7 +1926,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .debug_line    0x00000000     0x100c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
- .debug_str     0x00000000   0x175619 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000   0x1755f6 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000      0x174 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -2101,7 +2101,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .debug_line    0x00000000     0x12e7 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
- .debug_str     0x00000000   0x17587a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
+ .debug_str     0x00000000   0x175857 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .debug_frame   0x00000000      0x34c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj
  .ARM.attributes
@@ -2629,7 +2629,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .debug_line    0x00000000     0x3c6a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
- .debug_str     0x00000000   0x17655a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
+ .debug_str     0x00000000   0x176537 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .debug_frame   0x00000000      0xc40 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj
  .ARM.attributes
@@ -2774,7 +2774,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .debug_line    0x00000000      0x8e3 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
- .debug_str     0x00000000   0x17594e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
+ .debug_str     0x00000000   0x17592b CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .debug_frame   0x00000000      0x100 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj
  .ARM.attributes
@@ -3138,7 +3138,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
  .debug_line    0x00000000     0x22a7 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
- .debug_str     0x00000000   0x176065 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
+ .debug_str     0x00000000   0x176042 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
  .debug_frame   0x00000000      0x75c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart.c.obj
  .ARM.attributes
@@ -3295,7 +3295,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
  .debug_line    0x00000000      0xa25 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
- .debug_str     0x00000000   0x17573b CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
+ .debug_str     0x00000000   0x175718 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
  .debug_frame   0x00000000      0x194 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_usart_ex.c.obj
  .ARM.attributes
@@ -3832,6 +3832,151 @@ Discarded input sections
  .debug_macro   0x00000000      0x359 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
  .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .group         0x00000000        0xc CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .text          0x00000000        0x0 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .data          0x00000000        0x0 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .bss.Motor_gpio_structure
+                0x00000000       0x14 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .text.MotorControl_Init
+                0x00000000      0x26c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_info    0x00000000      0x6ce CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_abbrev  0x00000000      0x154 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_ranges  0x00000000       0x10 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x2c5 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0xa8a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x238 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x3b CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000    0x27066 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000     0x3d79 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x174 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x64 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x1e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x341 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x5d CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000     0x3a9d CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000     0x1072 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x154 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x130 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x3c2 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0xac CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x72d CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x228 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x66 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x3bb CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x407 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x244 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x3ca CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x4a2 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x22c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x67 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x218 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x2ea CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x693 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0xa6 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x359 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0xb9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x7a4 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000      0x131 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_macro   0x00000000       0xfa CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_line    0x00000000      0x84a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_str     0x00000000   0x17612c CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .debug_frame   0x00000000       0x38 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
  .group         0x00000000        0xc CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
@@ -3973,6 +4118,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x359 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0xb9 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x7a4 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x52 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x131 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_it.c.obj
@@ -4444,7 +4590,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
  .debug_macro   0x00000000       0xce CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
  .debug_line    0x00000000      0x593 CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000     0x85c3 CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000     0x85a0 CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x4a CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x2ac CMakeFiles/LedProject_CM4.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -4594,6 +4740,7 @@ LOAD CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/
 LOAD CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 LOAD CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 LOAD CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
+LOAD CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/RC_CAR/Source/MotorControl.c.obj
 LOAD CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_it.c.obj
 LOAD CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_hal_msp.c.obj
@@ -5496,7 +5643,7 @@ LOAD c:/gccarmtoolchain/gcc_hostcortexm/bin/../lib/gcc/arm-none-eabi/10.3.1/thum
  .debug_ranges  0x00000bc0       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
  .debug_ranges  0x00000bd0       0x20 CMakeFiles/LedProject_CM4.dir/Core/Startup/startup_stm32h745xx_CM4.s.obj
 
-.debug_macro    0x00000000    0x39f84
+.debug_macro    0x00000000    0x39f56
  .debug_macro   0x00000000      0x29b CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj
  .debug_macro   0x0000029b      0xa8a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj
  .debug_macro   0x00000d25       0x2e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj
@@ -5573,30 +5720,29 @@ LOAD c:/gccarmtoolchain/gcc_hostcortexm/bin/../lib/gcc/arm-none-eabi/10.3.1/thum
  .debug_macro   0x000389f5       0x52 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
  .debug_macro   0x00038a47      0x131 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
  .debug_macro   0x00038b78      0x41a CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00038f92       0x2e CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00038fc0       0x1c CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00038fdc       0x35 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039011       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039021       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039031       0x1c CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x0003904d       0x52 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x0003909f       0x22 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x000390c1       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x000390d1       0x52 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039123       0xd5 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x000391f8       0x1c CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039214       0x3d CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039251       0x16 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x00039267      0x16f CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x000393d6       0x16 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
- .debug_macro   0x000393ec      0x391 CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_macro   0x0003977d      0x387 CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_macro   0x00039b04       0xec CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00039bf0       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00039c00       0x5e CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00039c5e       0x94 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00039cf2       0x57 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00039d49      0x23b CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00038f92       0x1c CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00038fae       0x35 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00038fe3       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00038ff3       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00039003       0x1c CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x0003901f       0x52 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00039071       0x22 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00039093       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x000390a3       0x52 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x000390f5       0xd5 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x000391ca       0x1c CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x000391e6       0x3d CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00039223       0x16 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x00039239      0x16f CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x000393a8       0x16 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+ .debug_macro   0x000393be      0x391 CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_macro   0x0003974f      0x387 CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_macro   0x00039ad6       0xec CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00039bc2       0x10 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00039bd2       0x5e CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00039c30       0x94 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00039cc4       0x57 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00039d1b      0x23b CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
 
 .debug_line     0x00000000    0x1174e
  .debug_line    0x00000000      0x848 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj
@@ -5618,42 +5764,42 @@ LOAD c:/gccarmtoolchain/gcc_hostcortexm/bin/../lib/gcc/arm-none-eabi/10.3.1/thum
  .debug_line    0x0001140b      0x289 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
  .debug_line    0x00011694       0xba CMakeFiles/LedProject_CM4.dir/Core/Startup/startup_stm32h745xx_CM4.s.obj
 
-.debug_str      0x00000000   0x17c2e1
- .debug_str     0x00000000   0x174f35 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj
-                             0x175370 (size before relaxing)
- .debug_str     0x00174f35      0xc07 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                             0x175e17 (size before relaxing)
- .debug_str     0x00175b3c      0x837 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
-                             0x1759a1 (size before relaxing)
- .debug_str     0x00176373      0x5c9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                             0x1758cc (size before relaxing)
- .debug_str     0x0017693c      0x9a6 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
-                             0x175ddb (size before relaxing)
- .debug_str     0x001772e2      0x1a1 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                             0x17557f (size before relaxing)
- .debug_str     0x00177483      0x234 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
-                             0x17520a (size before relaxing)
- .debug_str     0x001776b7      0xc05 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
-                             0x175c82 (size before relaxing)
- .debug_str     0x001782bc      0x89a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                             0x17662a (size before relaxing)
- .debug_str     0x00178b56      0x230 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
-                             0x1753bd (size before relaxing)
- .debug_str     0x00178d86      0x5a6 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
-                             0x175944 (size before relaxing)
- .debug_str     0x0017932c      0x9e5 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                             0x176311 (size before relaxing)
- .debug_str     0x00179d11      0xb6e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
-                             0x176d8a (size before relaxing)
- .debug_str     0x0017a87f     0x1398 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
-                             0x177efa (size before relaxing)
- .debug_str     0x0017bc17      0x113 CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_it.c.obj
-                             0x176f73 (size before relaxing)
- .debug_str     0x0017bd2a       0x4f CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_hal_msp.c.obj
-                             0x176af7 (size before relaxing)
- .debug_str     0x0017bd79      0x501 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
-                               0x5874 (size before relaxing)
- .debug_str     0x0017c27a       0x67 CMakeFiles/LedProject_CM4.dir/Core/Startup/startup_stm32h745xx_CM4.s.obj
+.debug_str      0x00000000   0x17c2be
+ .debug_str     0x00000000   0x174f12 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c.obj
+                             0x17534d (size before relaxing)
+ .debug_str     0x00174f12      0xc07 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                             0x175df4 (size before relaxing)
+ .debug_str     0x00175b19      0x837 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+                             0x17597e (size before relaxing)
+ .debug_str     0x00176350      0x5c9 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                             0x1758a9 (size before relaxing)
+ .debug_str     0x00176919      0x9a6 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                             0x175db8 (size before relaxing)
+ .debug_str     0x001772bf      0x1a1 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                             0x17555c (size before relaxing)
+ .debug_str     0x00177460      0x234 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj
+                             0x1751e7 (size before relaxing)
+ .debug_str     0x00177694      0xc05 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                             0x175c5f (size before relaxing)
+ .debug_str     0x00178299      0x89a CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                             0x176607 (size before relaxing)
+ .debug_str     0x00178b33      0x230 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj
+                             0x17539a (size before relaxing)
+ .debug_str     0x00178d63      0x5a6 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                             0x175921 (size before relaxing)
+ .debug_str     0x00179309      0x9e5 CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                             0x1762ee (size before relaxing)
+ .debug_str     0x00179cee      0xb6e CMakeFiles/STM32_Drivers.dir/C_/CoffeeWithEmbedded/STM_Projects/LedProject/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c.obj
+                             0x176d67 (size before relaxing)
+ .debug_str     0x0017a85c     0x1398 CMakeFiles/LedProject_CM4.dir/Core/Src/main.c.obj
+                             0x177ed7 (size before relaxing)
+ .debug_str     0x0017bbf4      0x113 CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_it.c.obj
+                             0x176f50 (size before relaxing)
+ .debug_str     0x0017bd07       0x4f CMakeFiles/LedProject_CM4.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+                             0x176ad4 (size before relaxing)
+ .debug_str     0x0017bd56      0x501 CMakeFiles/LedProject_CM4.dir/Core/Src/sysmem.c.obj
+                               0x5851 (size before relaxing)
+ .debug_str     0x0017c257       0x67 CMakeFiles/LedProject_CM4.dir/Core/Startup/startup_stm32h745xx_CM4.s.obj
                                  0x9f (size before relaxing)
 
 .comment        0x00000000       0x49
