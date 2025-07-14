@@ -1,5 +1,6 @@
 #include "stm32h7xx_hal.h"
 #include "stm32h7xx_nucleo.h"
+#include <stdio.h>
 
 # define MT_ENABLE 1
 
@@ -23,12 +24,11 @@
 #define MT_A_IN2_GPIO_CLK_DISABLE()                __HAL_RCC_GPIOC_CLK_DISABLE()
 #define MT_A_IN2_AF                                GPIO_AF0_SWJ  // GPIO function
 
-// Motor A Current Sense Pin
-#define MT_A_SENSE_PIN                             GPIO_PIN_1
+// Motor A Current Sense Pin (now using ADC3)
+#define MT_A_SENSE_PIN                             GPIO_PIN_1  // PC1 = ADC3_CH11
 #define MT_A_SENSE_GPIO_PORT                       GPIOC
 #define MT_A_SENSE_GPIO_CLK_ENABLE()               __HAL_RCC_GPIOC_CLK_ENABLE()
 #define MT_A_SENSE_GPIO_CLK_DISABLE()              __HAL_RCC_GPIOC_CLK_DISABLE()
-#define MT_A_SENSE_AF                              GPIO_AF1_TIM2  // For ADC input
 
 // Motor B Enable Pin
 #define MT_B_EN_PIN                                GPIO_PIN_2
@@ -50,10 +50,16 @@
 #define MT_B_IN2_GPIO_CLK_DISABLE()                __HAL_RCC_GPIOC_CLK_DISABLE()
 #define MT_B_IN2_AF                                GPIO_AF0_SWJ  // GPIO function
 
-// Motor B Current Sense Pin
-#define MT_B_SENSE_PIN                             GPIO_PIN_5
+// Motor B Current Sense Pin (using ADC3)
+#define MT_B_SENSE_PIN                             GPIO_PIN_0  // PC0 = ADC3_CH10  
 #define MT_B_SENSE_GPIO_PORT                       GPIOC
 #define MT_B_SENSE_GPIO_CLK_ENABLE()               __HAL_RCC_GPIOC_CLK_ENABLE()
 #define MT_B_SENSE_GPIO_CLK_DISABLE()              __HAL_RCC_GPIOC_CLK_DISABLE()
-#define MT_B_SENSE_AF                              GPIO_AF1_TIM2  // For ADC input
+
+// Function prototypes
+void MotorControl_Init(void);
+void MotorControl_ADC_Init(void);
+void MotorControl_ADC_Reset(void);
+uint16_t MotorControl_ReadCurrentA(void);
+void Error_Handler(void);
 

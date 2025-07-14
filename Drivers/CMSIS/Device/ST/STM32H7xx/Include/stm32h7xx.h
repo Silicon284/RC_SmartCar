@@ -68,7 +68,7 @@
   /* #define STM32H747xx */   /*!< STM32H747ZI, STM32H747AI, STM32H747II, STM32H747BI, STM32H747XI Devices */
   /* #define STM32H747xG */   /*!< STM32H747AG, STM32H747IG, STM32H747BG, STM32H747XG */
   /* #define STM32H757xx */   /*!< STM32H757ZI, STM32H757AI, STM32H757II, STM32H757BI, STM32H757XI Devices */
-  /* #define STM32H745xx */   /*!< STM32H745ZI, STM32H745II, STM32H745BI, STM32H745XI Devices  */
+  //#define STM32H745xx       STM32H745ZI  /*!< STM32H745ZI, STM32H745II, STM32H745BI, STM32H745XI Devices  */
   /* #define STM32H745xG */   /*!< STM32H745ZG, STM32H745IG, STM32H745BG, STM32H745XG Devices  */
   /* #define STM32H755xx */   /*!< STM32H755ZI, STM32H755II, STM32H755BI, STM32H755XI Devices  */
   /* #define STM32H7B0xx */   /*!< STM32H7B0IBTx, STM32H7B0RBTx, STM32H7B0VBTx, STM32H7B0ZBTx Devices */
@@ -99,7 +99,7 @@
    In this case, these drivers will not be included and the application code will
    be based on direct access to peripherals registers
    */
-  /*#define USE_HAL_DRIVER */
+  #define USE_HAL_DRIVER
 #endif /* USE_HAL_DRIVER */
 
 /**

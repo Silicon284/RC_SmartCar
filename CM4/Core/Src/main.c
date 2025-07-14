@@ -18,12 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "stm32h7xx_nucleo.h"
-#include <stdio.h>
-#include <string.h>
+
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -108,13 +106,15 @@ int main(void)
   HAL_PWREx_EnterSTOPMode(PWR_MAINREGULATOR_ON, PWR_STOPENTRY_WFE, PWR_D2_DOMAIN);
   /* Clear HSEM flag */
   __HAL_HSEM_CLEAR_FLAG(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
-
+  
+  /* Note: System clock configuration is handled by CM7 core */
+  /* CM4 core should not call SystemClock_Config() */
 /* USER CODE END Boot_Mode_Sequence_1 */
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
-
+  HAL_MspInit();
   /* USER CODE BEGIN Init */
 
   /* USER CODE END Init */
@@ -262,12 +262,55 @@ uint8_t text[] = "Hello from STM32 On-Board USART MODULE!\r\n";
 
   // Test UART hardware configuration
   // test_uart_loopback();
+  
+  // Initialize Motor Control System
+  MotorControl_Init();
+  MotorControl_ADC_Init();
+  
+  uint8_t motor_init_msg[] = "Motor Control and ADC Initialized!\r\n";
+  HAL_UART_Transmit(&hcom_uart[COM1], motor_init_msg, sizeof(motor_init_msg) - 1, HAL_MAX_DELAY);
+  
+
+
   /* USER CODE BEGIN WHILE */
+  static uint32_t loop_counter = 0;
   while (1)
   {
 
     /* USER CODE END WHILE */
+    loop_counter++;
+    
+    // Debug: Print loop iteration number
+    uint8_t loop_debug[50];
+    sprintf((char*)loop_debug, "=== LOOP ITERATION %lu ===\r\n", loop_counter);
+    HAL_UART_Transmit(&hcom_uart[COM1], loop_debug, strlen((char*)loop_debug), HAL_MAX_DELAY);
+    
     HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_1); // Toggle LED on GPIOE pin 1    
+  
+    // Read ADC values from motor current sensors
+    uint8_t step2_debug[] = "Step 2: Reading ADC A...\r\n";
+    HAL_UART_Transmit(&hcom_uart[COM1], step2_debug, strlen((char*)step2_debug), HAL_MAX_DELAY);
+    
+    uint16_t motor_a_current = MotorControl_ReadCurrentA();
+    
+    // uint8_t step3_debug[] = "Step 3: Reading ADC B...\r\n";
+    // HAL_UART_Transmit(&hcom_uart[COM1], step3_debug, strlen((char*)step3_debug), HAL_MAX_DELAY);
+    
+   // uint16_t motor_b_current = MotorControl_ReadCurrentB();
+  
+    // Send ADC values via UART
+    uint8_t adc_data[100];
+    sprintf((char*)adc_data, "Motor A Current: %d\r\n", motor_a_current);
+    HAL_UART_Transmit(&hcom_uart[COM1], adc_data, strlen((char*)adc_data), HAL_MAX_DELAY);
+    
+ 
+    // Convert to voltage (assuming 3.3V reference and 12-bit ADC)
+    // float voltage_a = (motor_a_current * 3.3f) / 4095.0f;
+    // float voltage_b = (motor_b_current * 3.3f) / 4095.0f;
+    
+    // sprintf((char*)adc_data, "Motor A Voltage: %.3fV, Motor B Voltage: %.3fV\r\n", 
+    //         voltage_a, voltage_b);
+    // HAL_UART_Transmit(&hcom_uart[COM1], adc_data, strlen((char*)adc_data), HAL_MAX_DELAY);
     
     // Debug: Check UART state and hardware registers every 5 seconds
     // static uint32_t debug_counter = 0;
@@ -304,8 +347,11 @@ uint8_t text[] = "Hello from STM32 On-Board USART MODULE!\r\n";
     // }
     
     // Removed redundant HAL_UART_Receive_IT call - it's handled in the callback
-    HAL_Delay(1000); // Delay for 1000 milliseconds
+    HAL_Delay(3000); // Delay for 1000 milliseconds
 
+    uint8_t step7_debug[] = "Step 7: Delay complete, loop ending\r\n";
+    HAL_UART_Transmit(&hcom_uart[COM1], step7_debug, strlen((char*)step7_debug), HAL_MAX_DELAY);
+    
     ///HAL_UART_Transmit(&hcom_uart[COM1], text2, sizeof(text2)-1, HAL_MAX_DELAY);
     /* USER CODE BEGIN 3 */
   }
@@ -365,6 +411,7 @@ void Error_Handler(void)
   while (1)
   {
     HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)"Hello from Error Handler\r\n", 22, HAL_MAX_DELAY);
+    HAL_Delay(10000); // Delay to avoid flooding the UART
   }
   /* USER CODE END Error_Handler_Debug */
 }
