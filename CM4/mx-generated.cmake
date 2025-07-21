@@ -54,8 +54,12 @@ set(STM32_Drivers_Src
     ${CMAKE_SOURCE_DIR}/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
     ${CMAKE_SOURCE_DIR}/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c
     ${CMAKE_SOURCE_DIR}/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c
+    ${CMAKE_SOURCE_DIR}/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
+    ${CMAKE_SOURCE_DIR}/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
     ${CMAKE_SOURCE_DIR}/../Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.c
     ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/MotorControl.c
+    ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/Ultrasonic_Sensor.c
+    ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/Bluetooth_Console.c
 )
 
 # Drivers Midllewares

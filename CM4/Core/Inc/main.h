@@ -30,6 +30,8 @@ extern "C" {
 #include "stm32h7xx_hal.h"
 #include "MotorControl.h"
 #include "stm32h7xx_nucleo.h"
+#include "Ultrasonic_Sensor.h"
+#include "Bluetooth_Console.h"
 #include <stdio.h>
 #include <string.h>
 

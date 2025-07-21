@@ -51,8 +51,8 @@ extern "C" {
 #define USE_NUCLEO_144
 
 /* COM define */
-#define USE_COM_LOG                         1U
-#define USE_BSP_COM_FEATURE                 1U
+#define USE_COM_LOG                         1
+#define USE_BSP_COM_FEATURE                 1
 
 /* IRQ priorities */
 #define BSP_BUTTON_USER_IT_PRIORITY         15U

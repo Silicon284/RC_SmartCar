@@ -22,11 +22,13 @@
 #include "stm32h7xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stm32h7xx_nucleo.h"  // Include this to get access to hcom_uart
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-extern UART_HandleTypeDef BT_UART;
+extern UART_HandleTypeDef hcom_uart[COMn];  // Declare the UART handle array
+extern UART_HandleTypeDef BT_UART;  // Define the UART handle
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -216,7 +218,7 @@ void USART2_IRQHandler(void)
 {
   /* USER CODE BEGIN USART2_IRQn 0 */
   // Add debug - toggle a LED to show interrupt is firing
-      __HAL_UART_CLEAR_OREFLAG(&BT_UART);
+  __HAL_UART_CLEAR_OREFLAG(&BT_UART);
   HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14); // Red LED to show interrupt fired
   /* USER CODE END USART2_IRQn 0 */
   HAL_UART_IRQHandler(&BT_UART);
