@@ -151,32 +151,9 @@ int main(void)
   int16_t temperature_raw = 0;
   float_t temperature = 0.0;
 
-   HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x6B, MemAddSize, &pData,  Size,  Timeout);
+  HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x6B, MemAddSize, &pData,  Size,  Timeout);
   while (1)
   {
-
-  // statusI2C= HAL_I2C_IsDeviceReady(&hi2c1,IMUAdd, 10,100);
-  // sprintf (timer_init_msg, "I2C status: %d \n\r", statusI2C);
-  // Terminal_Display(timer_init_msg);
-  // HAL_Delay(3000);
-
-
-
-  //04 TO 0X6B REGISTER
- 
-  HAL_Delay(3000);
-
-  HAL_I2C_Mem_Read(&hi2c1, IMUAdd, 0x42, MemAddSize, &tData[0],  Size,  Timeout);
-  HAL_I2C_Mem_Read(&hi2c1, IMUAdd, 0x41, MemAddSize, &tData[1],  Size,  Timeout);
-  temperature_raw = tData[1] << 8 | tData[0];
-  temperature = (float_t)(temperature_raw)/340.0 + 36.53;
-  //temperature_raw = (int16_t)temperature;
-
-  sprintf (timer_init_msg, "I2C Temperature: %d \n\r", (int16_t)temperature);
-  Terminal_Display(timer_init_msg);
-  HAL_Delay(3000);
-
-//  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_3);
 
   }
 }

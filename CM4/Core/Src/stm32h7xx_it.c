@@ -239,3 +239,10 @@ void TIM4_IRQHandler(void) {
 
 }
 
+void EXTI0_IRQHandler (void) {
+  
+  uint16_t GPIO_Pin = 0;
+  char gpio_init_msg[] = "I am inside GPIOB ISR!\r\n";
+  //Terminal_Display(gpio_init_msg);
+  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
+}
