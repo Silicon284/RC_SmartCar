@@ -156,7 +156,6 @@ int main(void)
   {
 
   // statusI2C= HAL_I2C_IsDeviceReady(&hi2c1,IMUAdd, 10,100);
-
   // sprintf (timer_init_msg, "I2C status: %d \n\r", statusI2C);
   // Terminal_Display(timer_init_msg);
   // HAL_Delay(3000);
