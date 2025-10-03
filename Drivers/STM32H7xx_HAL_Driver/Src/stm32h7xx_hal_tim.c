@@ -184,7 +184,7 @@ all interrupt callbacks are set to the corresponding weak functions:
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32h7xx_hal.h"
+#include <stm32h7xx_hal.h>
 
 /** @addtogroup STM32H7xx_HAL_Driver
   * @{
@@ -194,6 +194,8 @@ all interrupt callbacks are set to the corresponding weak functions:
   * @brief TIM HAL module driver
   * @{
   */
+
+#define HAL_TIM_MODULE_ENABLED
 
 #ifdef HAL_TIM_MODULE_ENABLED
 

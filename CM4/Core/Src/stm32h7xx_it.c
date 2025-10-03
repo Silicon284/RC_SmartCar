@@ -29,6 +29,7 @@
 /* USER CODE BEGIN TD */
 extern UART_HandleTypeDef hcom_uart[COMn];  // Declare the UART handle array
 extern UART_HandleTypeDef BT_UART;  // Define the UART handle
+extern TIM_HandleTypeDef htim4;  // Define the TIM handle
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -226,3 +227,15 @@ void USART2_IRQHandler(void)
 
   /* USER CODE END USART2_IRQn 1 */
 }
+
+
+
+void TIM4_IRQHandler(void) {
+ 
+  char timer_init_msg[] = "I am inside Timer ISR!\r\n";
+  Terminal_Display(timer_init_msg);
+
+  HAL_TIM_IRQHandler(&htim4);
+
+}
+

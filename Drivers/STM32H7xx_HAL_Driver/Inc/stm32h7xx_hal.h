@@ -36,6 +36,7 @@
   * @{
   */
 
+
 /* Exported types ------------------------------------------------------------*/
 /** @defgroup HAL_TICK_FREQ Tick Frequency
   * @{

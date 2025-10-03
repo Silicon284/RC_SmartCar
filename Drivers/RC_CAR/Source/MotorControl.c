@@ -322,3 +322,34 @@ uint16_t MotorControl_ReadCurrentA(void)
 
     return adcValue;
 }
+  /* USER CODE BEGIN WHILE */
+  static uint32_t loop_counter = 0;
+void GetADCValues(void)
+{
+    /* USER CODE END WHILE */
+    loop_counter++;
+    
+    // Debug: Print loop iteration number
+    char loop_debug[50];
+    sprintf(loop_debug, "=== LOOP ITERATION %lu ===\r\n", loop_counter);
+    Terminal_Display(loop_debug);
+        
+    HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_1); // Toggle LED on GPIOE pin 1    
+  
+    // Read ADC values from motor current sensors
+    char step2_debug[] = "Step 2: Reading ADC A...\r\n";
+    Terminal_Display(step2_debug);
+
+    uint16_t motor_a_current = MotorControl_ReadCurrentA();
+    
+    // Send ADC values via UART
+    char adc_data[100];
+    sprintf(adc_data, "Motor A Current: %d\r\n", motor_a_current);
+    Terminal_Display(adc_data);
+
+    // Removed redundant HAL_UART_Receive_IT call - it's handled in the callback
+    HAL_Delay(3000); // Delay for 1000 milliseconds
+
+    char step7_debug[] = "Step 7: Delay complete, loop ending\r\n";
+    Terminal_Display(step7_debug);
+}

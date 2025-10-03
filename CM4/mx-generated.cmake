@@ -60,6 +60,7 @@ set(STM32_Drivers_Src
     ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/MotorControl.c
     ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/Ultrasonic_Sensor.c
     ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/Bluetooth_Console.c
+    ${CMAKE_SOURCE_DIR}/../Drivers/RC_CAR/Source/IMU_Control.c
 )
 
 # Drivers Midllewares

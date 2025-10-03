@@ -34,6 +34,7 @@ extern "C" {
 #include "Bluetooth_Console.h"
 #include <stdio.h>
 #include <string.h>
+#include "IMU_Control.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */

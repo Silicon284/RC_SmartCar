@@ -21,7 +21,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-
+#include "Ultrasonic_Sensor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -52,7 +52,8 @@
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-
+extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim4;
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -125,6 +126,10 @@ int main(void)
   HAL_Delay(1);
   Terminal_Console_Init();
   MX_TIM3_Init();
+  //HAL_Delay(1);
+  MX_TIM4_Init();
+
+  MX_I2C4_Init();
   BlueTooth_Console_Init();
 
   // Initialize Motor Control System
@@ -134,38 +139,45 @@ int main(void)
   char motor_init_msg[] = "Motor Control and ADC Initialized!\r\n";
   Terminal_Display(motor_init_msg);
 
+ HAL_StatusTypeDef statusI2C = HAL_OK;
 
-  /* USER CODE BEGIN WHILE */
-  static uint32_t loop_counter = 0;
+  char timer_init_msg[100];
+  uint8_t IMUAdd = 0x68<<1;
+  uint16_t MemAddSize = 1;
+  uint8_t pData = 0x24;
+  uint8_t tData[2];
+  uint16_t Size = 1;
+  uint32_t Timeout = 100;
+  int16_t temperature_raw = 0;
+  float_t temperature = 0.0;
+
+   HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x6B, MemAddSize, &pData,  Size,  Timeout);
   while (1)
   {
 
-    /* USER CODE END WHILE */
-    loop_counter++;
-    
-    // Debug: Print loop iteration number
-    char loop_debug[50];
-    sprintf(loop_debug, "=== LOOP ITERATION %lu ===\r\n", loop_counter);
-    Terminal_Display(loop_debug);
-        
-    HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_1); // Toggle LED on GPIOE pin 1    
-  
-    // Read ADC values from motor current sensors
-    char step2_debug[] = "Step 2: Reading ADC A...\r\n";
-    Terminal_Display(step2_debug);
+  // statusI2C= HAL_I2C_IsDeviceReady(&hi2c1,IMUAdd, 10,100);
 
-    uint16_t motor_a_current = MotorControl_ReadCurrentA();
-    
-    // Send ADC values via UART
-    char adc_data[100];
-    sprintf(adc_data, "Motor A Current: %d\r\n", motor_a_current);
-    Terminal_Display(adc_data);
+  // sprintf (timer_init_msg, "I2C status: %d \n\r", statusI2C);
+  // Terminal_Display(timer_init_msg);
+  // HAL_Delay(3000);
 
-    // Removed redundant HAL_UART_Receive_IT call - it's handled in the callback
-    HAL_Delay(3000); // Delay for 1000 milliseconds
 
-    char step7_debug[] = "Step 7: Delay complete, loop ending\r\n";
-    Terminal_Display(step7_debug);
+
+  //04 TO 0X6B REGISTER
+ 
+  HAL_Delay(3000);
+
+  HAL_I2C_Mem_Read(&hi2c1, IMUAdd, 0x42, MemAddSize, &tData[0],  Size,  Timeout);
+  HAL_I2C_Mem_Read(&hi2c1, IMUAdd, 0x41, MemAddSize, &tData[1],  Size,  Timeout);
+  temperature_raw = tData[1] << 8 | tData[0];
+  temperature = (float_t)(temperature_raw)/340.0 + 36.53;
+  //temperature_raw = (int16_t)temperature;
+
+  sprintf (timer_init_msg, "I2C Temperature: %d \n\r", (int16_t)temperature);
+  Terminal_Display(timer_init_msg);
+  HAL_Delay(3000);
+
+//  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_3);
 
   }
 }
