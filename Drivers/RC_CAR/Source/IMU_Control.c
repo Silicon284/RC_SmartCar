@@ -1,11 +1,15 @@
 #include "IMU_Control.h"
 #include <math.h>
 
-void IMU_Euler_Angles(void);
+void Display_IMU_Euler_Angles(void);
+void calculate_angles_complementary(int16_t ax, int16_t ay, int16_t az, 
+                                   int16_t gx, int16_t gy, int16_t gz,
+                                   int16_t *pitch, int16_t *roll, int16_t *yaw);
 
 I2C_HandleTypeDef hi2c1;
 
 static int16_t ax, ay, az, gx, gy, gz, temp;
+int16_t pitch, roll, yaw;
 
 
 void MX_I2C4_Init(void)
@@ -83,9 +87,7 @@ void MX_I2C4_Init(void)
 		GPIO_InitStruct_IMU_GPIO.Speed 	= GPIO_SPEED_FREQ_LOW;
 		HAL_GPIO_Init(GPIOB, &GPIO_InitStruct_IMU_GPIO);
 
-      /*ENABLE INTERRUPT*/
-    HAL_NVIC_SetPriority(EXTI0_IRQn, 2, 0);  // Changed priority to 5 (lower priority than system)
-    HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+
 
     uint8_t IMUAdd = 0x68<<1;
     uint16_t MemAddSize = 1;
@@ -96,7 +98,14 @@ void MX_I2C4_Init(void)
 
     HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x38, MemAddSize, &pData,  Size,  Timeout);
     pData = 250;
-    HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x19, MemAddSize, &pData,  Size,  Timeout);
+    HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x19, MemAddSize, &pData,  Size,  Timeout); 
+    pData = 0x01;
+    HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x1A, MemAddSize, &pData,  Size,  Timeout);     
+  /*ENABLE INTERRUPT*/
+    HAL_NVIC_SetPriority(EXTI0_IRQn, 2, 0);  // Changed priority to 5 (lower priority than system)
+    HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+
+
 
 }
 
@@ -108,6 +117,7 @@ void IMU_Raw_Read(void) {
     
     uint16_t Size = 1;
     uint32_t Timeout = 100;
+
 
     //HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x6B, MemAddSize, &pData,  Size,  Timeout);
     
@@ -128,56 +138,61 @@ void IMU_Raw_Read(void) {
     pData = 0;
     //HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x6B, MemAddSize, &pData,  Size,  Timeout);
 
-    IMU_Euler_Angles();
-
+    calculate_angles_complementary(ax,ay, az, gx, gy, gz, &pitch, &roll, &yaw);
+    Display_IMU_Euler_Angles();
 }
 
 
-void IMU_Euler_Angles(void) {
+void Display_IMU_Euler_Angles(void) {
 
   char IMU_msgs[100];
-  float_t IMU_Pitch = 0.0, IMU_Roll = 0.0;
-  // Calculate pitch (rotation around Y-axis) 
-  IMU_Pitch = atan2f(-ax, sqrtf(ay*ay + az*az)) * 180.0f / M_PI;
+  // float_t IMU_Pitch = 0.0, IMU_Roll = 0.0;
+  // // Calculate pitch (rotation around Y-axis) 
+  // IMU_Pitch = atan2f(-ax, sqrtf(ay*ay + az*az)) * 180.0f / M_PI;
   
-  // Calculate roll (rotation around X-axis)
-  IMU_Roll = atan2f(ay, sqrtf(ax*ax + az*az)) * 180.0f / M_PI;
+  // // Calculate roll (rotation around X-axis)
+  // IMU_Roll = atan2f(ay, sqrtf(ax*ax + az*az)) * 180.0f / M_PI;
 
-  sprintf (IMU_msgs, "IMU Ax: %d IMU_Ay: %d\n\r", (int16_t)IMU_Pitch, (int16_t)IMU_Roll);
-  Terminal_Display(IMU_msgs);
+  // sprintf (IMU_msgs, "%d : %d : %d \n\r", ax, ay, az);
+  // Terminal_Display(IMU_msgs);
   
 }
-/*
-void calculate_angles_complementary(float ax, float ay, float az, 
-                                   float gx, float gy, float gz,
-                                   float *pitch, float *roll, float *yaw)
+
+void calculate_angles_complementary(int16_t ax, int16_t ay, int16_t az, 
+                                   int16_t gx, int16_t gy, int16_t gz,
+                                   int16_t *pitch, int16_t *roll, int16_t *yaw)
 {
-    // Convert gyroscope from degrees/sec to radians/sec
-    float gx_rad = gx * M_PI / 180.0f;
-    float gy_rad = gy * M_PI / 180.0f;
-    float gz_rad = gz * M_PI / 180.0f;
+    float_t SAMPLE_TIME = 0.25;
+    float_t ALPHA = 0.96;
+    static float pitch_filtered = 0.0f;
+    static float roll_filtered = 0.0f;
+    static float yaw_integrated = 0.0f;
+char IMU_msgs[100];
+
     
     // Calculate angles from accelerometer (in degrees)
-    float pitch_accel = atan2f(-ax, sqrtf(ay*ay + az*az)) * 180.0f / M_PI;
-    float roll_accel = atan2f(ay, sqrtf(ax*ax + az*az)) * 180.0f / M_PI;
+    float_t pitch_accel = atan2f(-ax, sqrtf(ay*ay + az*az)) * 180.0f / M_PI;
+    float_t roll_accel = atan2f(ay, sqrtf(ax*ax + az*az)) * 180.0f / M_PI;
     
     // Integrate gyroscope data (in degrees)
-    float pitch_gyro = pitch_filtered + gy * SAMPLE_TIME;
-    float roll_gyro = roll_filtered + gx * SAMPLE_TIME;
+    float_t pitch_gyro = pitch_filtered + gy * SAMPLE_TIME;
+    float_t roll_gyro = roll_filtered + gx * SAMPLE_TIME;
     
+  sprintf (IMU_msgs, "%d : %d : %d \n\r", (int16_t)pitch_accel, (int16_t)gz, (int16_t)yaw_integrated);
+  Terminal_Display(IMU_msgs);
     // Apply complementary filter
     pitch_filtered = ALPHA * pitch_gyro + (1.0f - ALPHA) * pitch_accel;
     roll_filtered = ALPHA * roll_gyro + (1.0f - ALPHA) * roll_accel;
     
     // Yaw integration (gyroscope only, as accelerometer can't measure yaw)
-    yaw_integrated += gz * SAMPLE_TIME;
+    yaw_integrated += (gz-106) * SAMPLE_TIME;
     
     // Return filtered values
-    *pitch = pitch_filtered;
-    *roll = roll_filtered;
-    *yaw = yaw_integrated;
+    *pitch = (int16_t)pitch_filtered;
+    *roll = (int16_t)roll_filtered;
+    *yaw = (int16_t)yaw_integrated;
 }
-*/
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
   
   char IMU_msgs[100];

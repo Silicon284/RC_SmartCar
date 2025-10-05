@@ -144,7 +144,7 @@ int main(void)
   char timer_init_msg[100];
   uint8_t IMUAdd = 0x68<<1;
   uint16_t MemAddSize = 1;
-  uint8_t pData = 0x24;
+  uint8_t pData = 0x04;
   uint8_t tData[2];
   uint16_t Size = 1;
   uint32_t Timeout = 100;
@@ -152,6 +152,8 @@ int main(void)
   float_t temperature = 0.0;
 
   HAL_I2C_Mem_Write(&hi2c1, IMUAdd, 0x6B, MemAddSize, &pData,  Size,  Timeout);
+  
+  
   while (1)
   {
 
